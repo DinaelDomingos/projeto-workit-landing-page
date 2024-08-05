@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Fraunces144';
+  src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'Manrope';
+  src: url(assets/fonts/manrope/static/Manrope-Regular.ttf) format('truetype');
+}
+ 
+:root {
+  --darkPurple: #24053e;
+  --davysGrey: #584d62;
+  --white: #ffffff;
+  --eucaplyptus: #44ffa1;
+  --ghostWhite: #fcf8ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,219 @@
+/*Estilização para Desktop */
+
+body {
+    box-sizing: border-box;
+    background-image: url(assets/images/Rectangle-purple-desktop.svg),url(assets/images/Rectangle-ghostwhite-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0, 0 504px;
+    overflow-x: hidden;
+      
+}
+  
+/* Estilização do header */
+  
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem 10.3rem;
+}
+  
+.cabecalho a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.12em;
+    font-weight: 700;
+    line-height: 2em;
+    text-decoration: none;
+    color: var(--white);
+    border-bottom: 3px solid var(--eucaplyptus);
+}
+  
+.cabecalho a:hover {
+    color: var(--eucaplyptus);
+}
+  
+/* Estilização do main */
+/* Estilização do bloco título */
+
+.principal__titulo__imagem1 {
+    position: absolute;
+    top: 116.12px;
+    left: -138.27px;
+}
+  
+.principal__titulo__texto {
+    margin: auto;
+    width: 39.7rem;
+    text-align: center;
+}
+  
+.principal__titulo__texto h1 {
+    padding-bottom: 1rem;
+    font-family: 'Fraunces144', serif;
+    font-size: 5em;
+    color: var(--white);
+}
+  
+.principal__titulo__texto span {
+    border-bottom: 2px solid var(--eucaplyptus);
+}
+  
+.principal__titulo__texto a {
+    background-color: var(--eucaplyptus);
+    padding: 0.8rem 2rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.12em;
+    font-weight: 700;
+    line-height: 2em;
+    text-decoration: none;
+    color: var(--darkPurple);
+    display: inline-block;
+}
+  
+.principal__titulo__texto a:hover {
+    background-color: var(--darkPurple);
+    color: var(--eucaplyptus);
+    border: 1px solid var(--eucaplyptus);
+}
+  
+.principal__titulo__imagem2 {
+    position: absolute;
+    top: 314.07px;
+    right: -48.08px;
+}
+  
+/* Estilização do bloco conteúdo */
+  
+.principal__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+  
+.principal__conteudo img {
+    width: 45rem;
+    height: 28rem;
+    margin: 2.8rem auto;
+}
+  
+.principal__conteudo__texto {
+    display: flex;
+    margin: 4rem 10.2rem 10.7rem;
+    justify-content: space-between;
+}
+
+.principal__conteudo article {
+    width: 22.1rem;
+    text-align: center;
+}
+  
+.principal__conteudo__texto span {
+    display: block;
+    margin: auto;
+    width: 2.4rem;
+    padding: 0.6rem;
+    font-family: 'Fraunces144', serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: var(--darkPurple);
+    border: 1px solid var(--darkPurple);
+    border-radius: 50px;
+}
+  
+.principal__conteudo__texto h3 {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Fraunces144', serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: var(--darkPurple);
+}
+  
+.principal__conteudo__texto p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: var(--darkPurple);
+}
+  
+/*Estilização do bloco perfil */
+  
+.principal__perfil {
+    width: 69.5rem;
+    height: 40.5rem;
+    margin: 5rem auto;
+    position: relative;
+}
+  
+.principal__perfil__imagem-perfil {
+    width: 29.8rem;
+    height: 29.8rem;
+}
+  
+.principal__perfil article {
+    background-color: var(--darkPurple);
+    width: 45.63rem;
+    height: 25.81rem;
+    position: absolute;
+    top: 10rem;
+    right: 0;
+}
+  
+.principal__perfil__texto h2 {
+    padding: 4rem 0 0 4rem;
+    font-family: 'Fraunces144', serif;
+    font-size: 3.5em;
+    line-height: 1em;
+    color: var(--white);
+}
+  
+.principal__perfil__texto p {
+    padding: 2rem 2rem 2rem 4rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: var(--white);
+}
+  
+.principal__perfil__texto a {
+    display: inline-block;
+    background-color: var(--eucaplyptus);
+    margin-left: 4rem;
+    padding: 1rem 2rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--darkPurple)
+}
+  
+.principal__perfil__texto a:hover {
+    background-color: var(--darkPurple);
+    color: var(--eucaplyptus);
+    border: 1px solid var(--eucaplyptus);
+}
+  
+.principal__perfil__imagem3 {
+    position: relative;
+    top: 156px;
+    left: 317px;
+}
+  
+/* Estilização do footer */
+  
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 7.25rem;
+    height: 6.4rem;
+    margin: 0 auto 6.88rem ;
+}
+
+.rodape__midia-social {
+    display: flex;
+    justify-content: space-between;
+}
+  
+    

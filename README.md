@@ -5,17 +5,17 @@
 </p>
 Esta é a minha solução para o [desafio *Workit landing page* do site Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Este é meu quarto desafio na plataforma e esta prática tem me ajudado a melhorar minhas habilidades na codificação de projetos realistas. 
 ## Índice 
-•	[Visão Geral](#visão-geral)
-•	[O Desafio](#o-desafio)
-•	[Captura de tela](#captura-de-tela)
-•	[Links](#links)
-•	[Meu processo](#meu-processo)
-•	[Construído com](#construido-com)
-o	[O que aprendi](#o-que-aprendi)
-o	[Desenvolvimento contínuo](#desenvolvimento-continuo)
-o	[Recursos Úteis](#recursos-uteis)
-•	[Autor](#autor)
-•	[Agradecimentos](#agradecimentos)
+- [Visão Geral](#visão-geral)
+- [O Desafio](#o-desafio)
+- [Captura de tela](#captura-de-tela)
+- [Links](#links)
+- [Meu processo](#meu-processo)
+- [Construído com](#construido-com)
+- [O que aprendi](#o-que-aprendi)
+- [Desenvolvimento contínuo](#desenvolvimento-continuo)
+- [Recursos Úteis](#recursos-uteis)
+- [Autor](#autor)
+- [Agradecimentos](#agradecimentos)
 
 ## Visão Geral
 Este é meu quarto trabalho desenvolvido a partir dos desafios propostos no site [Frontend Mentor](https://www.frontendmentor.io/home). Os desafios do Frontend Mentor ajudam-me a melhorar minhas habilidades em HTML, CSS e JavaScript.

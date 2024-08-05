@@ -22,7 +22,7 @@ Este é meu quarto trabalho desenvolvido a partir dos desafios propostos no site
 ### O Desafio
 O desafio consiste em construir uma página o mais semelhante possível ao modelo fornecido em arquivo Figma, utilizando somente HTML e CSS, para 03 diferentes tamanhos de telas: mobile (375px), tablet (768px) e desktop(1440px). São fornecidos os arquivos de imagem e de fontes necessários para a construção da página, bem como o arquivo figma.
 
-### Capitura de tela
+### Captura de tela
 ![](./screenshot.png) 
 
 ### Links

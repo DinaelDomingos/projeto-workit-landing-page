@@ -3,22 +3,26 @@
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
+
 Esta é a minha solução para o [desafio *Workit landing page* do site Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Este é meu quarto desafio na plataforma e esta prática tem me ajudado a melhorar minhas habilidades na codificação de projetos realistas. 
+
 ## Índice 
+
 - [Visão Geral](#visão-geral)
 - [O Desafio](#o-desafio)
 - [Captura de tela](#captura-de-tela)
 - [Links](#links)
 - [Meu processo](#meu-processo)
-- [Construído com](#construido-com)
-- [O que aprendi](#o-que-aprendi)
-- [Desenvolvimento contínuo](#desenvolvimento-continuo)
-- [Recursos Úteis](#recursos-uteis)
+  - [Construído com](#construido-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento contínuo](#desenvolvimento-continuo)
+  - [Recursos Úteis](#recursos-uteis)
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
 ## Visão Geral
 Este é meu quarto trabalho desenvolvido a partir dos desafios propostos no site [Frontend Mentor](https://www.frontendmentor.io/home). Os desafios do Frontend Mentor ajudam-me a melhorar minhas habilidades em HTML, CSS e JavaScript.
+
 ### O Desafio
 O desafio consiste em construir uma página o mais semelhante possível ao modelo fornecido em arquivo Figma, utilizando somente HTML e CSS, para 03 diferentes tamanhos de telas: mobile (375px), tablet (768px) e desktop(1440px). São fornecidos os arquivos de imagem e de fontes necessários para a construção da página, bem como o arquivo figma.
 

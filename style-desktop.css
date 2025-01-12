@@ -223,6 +223,7 @@ body {
     font-family: 'Outfit', sans-serif;
     text-align: center;
     color: var(--darkPurple);
+    padding-bottom: 16px;
 }
 
 .attribution a { 

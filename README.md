@@ -1,7 +1,7 @@
 # Projeto: Workit landin page
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=TRABALHANDO&color=RED&style=for-the-badge"/>
 </p>
 
 Esta é a minha solução para o [desafio *Workit landing page* do site Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Este é meu quarto desafio na plataforma e esta prática tem me ajudado a melhorar minhas habilidades na codificação de projetos realistas. 

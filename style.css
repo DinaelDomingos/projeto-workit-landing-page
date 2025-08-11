@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Fraunces144';
-  src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf) format(truetype);
+  src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Manrope';
@@ -14,8 +14,10 @@
   --eucaplyptus: #44ffa1;
   --ghostWhite: #fcf8ff;
 }
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 

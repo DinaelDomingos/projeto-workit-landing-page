@@ -1,5 +1,4 @@
-/* Estilização para mobile */
-
+@charset "UTF-8";
 
 .container {
     background-image: url(assets/images/Rectangle-purple-mobile.svg), url(assets/images/Rectangle-ghostwhite-mobile.svg);

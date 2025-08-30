@@ -35,7 +35,6 @@
 }
 
 /* Estilização do main */
-/* Estilização do bloco título */
 
 .principal{
     display: flex;
@@ -43,13 +42,15 @@
     align-items: center;
 }
 
+/* Estilização do bloco título */
+
 .principal__titulo {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 
 .principal__titulo__imagem1 {
@@ -98,12 +99,13 @@
 .principal__conteudo {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 1rem;
+    padding: 2rem 1rem;
 }
   
 .principal__conteudo img {
-    height: 11rem;
-    padding-bottom: 0.875rem;
+    width: 87%;
+    height: auto;
+    margin: auto;
 }
 
 .principal__conteudo__texto {
@@ -153,8 +155,7 @@
 .principal__perfil {
     display: flex;
     flex-direction: column;
-    padding: 7.75rem 1rem 1rem;
-    margin: auto;
+    padding: 7.75rem 0 1rem;
 }
   
 .principal__perfil__imagem-perfil {
@@ -164,12 +165,16 @@
 }
     
 .principal__perfil__texto {
+    display: flex;
+    flex-direction: column;
     background-color: var(--darkPurple);
     text-align: center;
+    position: relative;
+    top: -50px;
 }
     
 .principal__perfil__texto h2 {
-    padding: 2rem 0 1rem;
+    padding: 2rem 2rem 1rem;
     font-family: 'Fraunces144', serif;
     font-size: 2em;
     color: var(--white);
@@ -204,4 +209,32 @@
     
 .principal__perfil__imagem3 {
     display: none;
+}
+
+/* Estilização do footer */
+  
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 7.25rem;
+    height: 6.4rem;
+    margin: 0.5rem auto 6rem ;
+}
+
+.rodape__midia-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attribution { 
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: var(--darkPurple);
+    padding-bottom: 16px;
+}
+
+.attribution a { 
+    color: var(--davysGrey); 
 }

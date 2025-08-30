@@ -15,15 +15,10 @@
   --white: #ffffff;
   --eucaplyptus: #44ffa1;
   --ghostWhite: #fcf8ff;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  
+} 
 
 body {
   box-sizing: border-box;
 }
-}
+
 

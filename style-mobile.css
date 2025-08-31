@@ -80,7 +80,7 @@
     display: none;
 }
 
-.principal__titulo img {
+.principal__titulo__imagem {
     width: 87%;
 }
 
@@ -98,7 +98,7 @@
     padding: 1.25rem 0;
 }
 
-.principal__conteudo span {
+.principal__conteudo > article > span {
     margin: auto;
     padding: 0.5rem 1.125rem;
     font-family: 'Fraunces144', serif;
@@ -114,8 +114,9 @@
 }
 
 .principal__conteudo__texto-texto h3 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    /* margin-top: 1.5rem;
+    margin-bottom: 1rem; */
+    margin: 1.5rem 0 1rem; 
     font-family: 'Fraunces144', serif;
     font-size: 1.75em;
     color: var(--darkPurple);
@@ -145,7 +146,6 @@
 .principal__perfil__texto {
     background-color: var(--darkPurple);
     margin: 0 1rem;
-    text-align: center;
     position: relative;
     top: -56px;
 }

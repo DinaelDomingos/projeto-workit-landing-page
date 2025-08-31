@@ -14,7 +14,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 1rem;
+    margin: 2rem 1rem 0;
 }
 
 .cabecalho a {
@@ -33,43 +33,30 @@
 
 /* Estilização do main */
 
-/* .principal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
 /* Estilização do bloco título */
 
-/* .principal__titulo {
-    display: flex;
-    flex-direction: column;
+.principal__titulo {
     position: relative;
-    width: 100%;
-    height: 100%;
-    padding: 2rem 0;
-} */
+    text-align: center;
+}
 
-/* .principal__titulo__imagem1 {
+.principal__titulo__imagem1 {
     display: none;
-} */
-
-/* .principal__titulo__texto {
-    text-align: center;    
-} */
+}
     
-/* .principal__titulo__texto h1 {
+.principal__titulo h1 {
     font-family: 'Fraunces144', serif;
     color: var(--white);
     font-size: 3.125em;
-    padding-bottom: 2.5rem;
-} */
+    margin-top: 4.125rem;
+    margin-bottom: 2.5rem;
+}
 
-/* .principal__titulo__texto span {
+.principal__titulo span {
     border-bottom: 3px solid var(--eucaplyptus);
-} */
+}
     
-/* .principal__titulo__texto a {
+.principal__titulo a {
     font-family: 'Manrope', sans-serif;
     background-color: var(--eucaplyptus);
     padding: 0.75rem 1.5rem;
@@ -77,116 +64,109 @@
     font-weight: 700;
     line-height: 2em;
     text-decoration: none;
+    margin-bottom: 3.875rem;
     color: var(--darkPurple);
     display: inline-block;
-} */
+    border: 1px solid var(--eucaplyptus);
+}
 
-/* .principal__titulo__texto a:hover {
+.principal__titulo a:hover {
     background-color: var(--darkPurple);
     color: var(--eucaplyptus);
-    border: 1px solid var(--eucaplyptus);
-} */
+    
+}
 
-/* .principal__titulo__imagem2 {
+.principal__titulo__imagem2 {
     display: none;
-} */
+}
+
+.principal__titulo img {
+    width: 87%;
+}
 
 /* Estilização do bloco conteúdo */
 
-/* .principal__conteudo {
+.principal__conteudo {
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem;
-} */
-  
-/* .principal__conteudo img {
-    width: 87%;
-    height: auto;
+    margin: 2.75rem 1rem 10.75rem;
+}
+
+.principal__conteudo__texto-itens {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 0;
+}
+
+.principal__conteudo span {
     margin: auto;
-} */
-
-/* .principal__conteudo__texto {
-    display: flex;
-    flex-direction: column;
-} */
-
-/* .principal__conteudo__texto-itens {
-    display: flex;
-    flex-direction: column;
-    padding: 2.5rem 0;
-} */
-
-/* .principal__conteudo__texto span {
-    margin: auto;
-    padding: 0.25rem 1rem;
+    padding: 0.5rem 1.125rem;
     font-family: 'Fraunces144', serif;
     font-size: 1.25em;
     line-height: 1.5em;
     color: var(--darkPurple);
     border: 1px solid var(--darkPurple);
     border-radius: 50px;
-} */
+}
 
-/* .principal__conteudo__texto-texto {
+.principal__conteudo__texto-texto {
     text-align: center;
-} */
+}
 
-/* .principal__conteudo__texto h3 {
+.principal__conteudo__texto-texto h3 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-family: 'Fraunces144', serif;
     font-size: 1.75em;
     color: var(--darkPurple);
-} */
+}
 
-/* .principal__conteudo__texto p {
+.principal__conteudo__texto-texto p {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
     color: var(--darkPurple);
-} */
+}
     
 /*Estilização do bloco perfil */
   
-/* .principal__perfil {
-    display: flex;
-    flex-direction: column;
-    padding: 7.75rem 0 1rem;
-} */
+.principal__perfil {
+    position: relative;
+    text-align: center;
+}
   
-/* .principal__perfil__imagem-perfil {
+.principal__perfil__imagem-perfil {
     width: 17.5rem;
     height: 17.5rem;
     margin: auto;
-} */
+}
     
-/* .principal__perfil__texto {
-    display: flex;
-    flex-direction: column;
+.principal__perfil__texto {
     background-color: var(--darkPurple);
+    margin: 0 1rem;
     text-align: center;
     position: relative;
-    top: -50px;
-} */
+    top: -56px;
+}
     
-/* .principal__perfil__texto h2 {
+.principal__perfil__texto h2 {
     padding: 2rem 2rem 1rem;
     font-family: 'Fraunces144', serif;
     font-size: 2em;
     color: var(--white);
-} */
+}
     
-/* .principal__perfil__texto p {
-    padding: 0 2rem;    
+.principal__perfil__texto p {
+    padding: 0 1.875rem;    
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.75em;
     color: var(--white);
-} */
+}
     
-/* .principal__perfil__texto a {    
+.principal__perfil__texto a {    
     display: inline-block;
     background-color: var(--eucaplyptus);
     padding: 0.75rem 1.5rem;
@@ -194,44 +174,44 @@
     font-size: 1em;
     font-weight: 700;
     text-decoration: none;
-    color: var(--darkPurple);
+    color: var(--darkPurple);    
+    border: 1px solid var(--eucaplyptus);
     margin: 1.5rem auto;
-} */
+}
 
-/* .principal__perfil__texto a:hover {
+.principal__perfil__texto a:hover {
     background-color: var(--darkPurple);
     color: var(--eucaplyptus);
-    border: 1px solid var(--eucaplyptus);
-} */
+}
     
-/* .principal__perfil__imagem3 {
+.principal__perfil__imagem3 {
     display: none;
-} */
+}
 
 /* Estilização do footer */
   
-/* .rodape__principal {
+.rodape__principal {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 7.25rem;
     height: 6.4rem;
-    margin: 0.5rem auto 6rem ;
-} */
+    margin: 1rem auto 6rem ;
+}
 
-/* .rodape__midia-social {
+.rodape__midia-social {
     display: flex;
     justify-content: space-between;
-} */
+}
 
-/* .attribution { 
+.attribution { 
     font-size: 12px;
     font-family: 'Outfit', sans-serif;
     text-align: center;
     color: var(--darkPurple);
     padding-bottom: 16px;
-} */
+}
 
-/* .attribution a { 
+.attribution a { 
     color: var(--davysGrey); 
-} */
+}

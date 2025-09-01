@@ -4,6 +4,7 @@
     background-image: url(assets/images/Rectangle-purple-mobile.svg), url(assets/images/Rectangle-ghostwhite-mobile.svg);
     background-position: 0 0, 0 392px;
     background-repeat: no-repeat;
+    background-color: white;
     margin: auto;
     max-width: 375px;
     overflow-x: hidden;
@@ -29,6 +30,7 @@
   
 .cabecalho a:hover {
     color: var(--eucaplyptus);
+    transition: .5s;
 }
 
 /* Estilização do main */
@@ -73,7 +75,7 @@
 .principal__titulo a:hover {
     background-color: var(--darkPurple);
     color: var(--eucaplyptus);
-    
+    transition: .5s;    
 }
 
 .principal__titulo__imagem2 {
@@ -81,7 +83,9 @@
 }
 
 .principal__titulo__imagem {
-    width: 87%;
+    display: block;
+    width: 80%;
+    margin: auto;
 }
 
 /* Estilização do bloco conteúdo */
@@ -89,7 +93,8 @@
 .principal__conteudo {
     display: flex;
     flex-direction: column;
-    margin: 2.75rem 1rem 10.75rem;
+    width: 90vw;
+    margin: 2.75rem auto 10.75rem;
 }
 
 .principal__conteudo__texto-itens {
@@ -140,12 +145,12 @@
 .principal__perfil__imagem-perfil {
     width: 17.5rem;
     height: 17.5rem;
-    margin: auto;
 }
     
 .principal__perfil__texto {
     background-color: var(--darkPurple);
-    margin: 0 1rem;
+    width: 91vw;
+    margin: 0 auto;
     position: relative;
     top: -56px;
 }
@@ -176,12 +181,13 @@
     text-decoration: none;
     color: var(--darkPurple);    
     border: 1px solid var(--eucaplyptus);
-    margin: 1.5rem auto;
+    margin: 1.5rem auto 2rem;
 }
 
 .principal__perfil__texto a:hover {
     background-color: var(--darkPurple);
     color: var(--eucaplyptus);
+    transition: .5s;
 }
     
 .principal__perfil__imagem3 {

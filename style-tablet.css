@@ -27,11 +27,12 @@
         
     .principal__titulo h1 {
         font-size: 3.75em;
-        margin: 3.75rem 9rem 2rem;
+        margin: 3.75rem auto 2rem;
+        width: 62vw;
     }
 
     .principal__titulo a{
-        margin-bottom: 2rem;
+        margin-bottom: 3.5rem;
     }
     
     
@@ -41,18 +42,22 @@
         top: 124px;
         right: -92px;
     }
+
+    .principal__titulo__imagem {
+        width: 68%;
+    }
   
     /* Estilização do bloco conteúdo */
     
     .principal__conteudo {
-        margin: 2.75rem 6.125rem 10.75rem;
+        flex-direction: column;
+        width: 75vw;
+        margin: 2.75rem auto 10.75rem;
     }
     
     .principal__conteudo__texto-itens {
-        /* width: 36rem; */
         flex-direction: row;
         gap: 1rem;
-        /* padding: 1rem 0; */
     }
     
     .principal__conteudo__texto-texto {
@@ -75,8 +80,9 @@
     }
 
     .principal__perfil__texto {
-        margin: 0 2.5rem 0 13.75rem;
-        top: -133px;
+        width: 67vw;
+        margin-left: 214px;
+        top: -133px;        
     }
 
     .principal__perfil__texto h2 {
@@ -90,14 +96,20 @@
 
     .principal__perfil__texto a {
         margin-left: 3.5rem;
+        margin-bottom: 3.5rem;
         padding: 0.8rem 2rem;
     }
 
     .principal__perfil__imagem3 {
         display: block;
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 392px;
+        left: 502px;
+    }
+
+    footer {
+        position: relative;
+        top: -80px;
     }
 }
 

@@ -1,7 +1,7 @@
 # Projeto: Workit landin page
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=TRABALHANDO&color=RED&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge"/>
 </p>
 
 Esta é a minha solução para o [desafio *Workit landing page* do site Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Este é meu quarto desafio na plataforma e esta prática tem me ajudado a melhorar minhas habilidades na codificação de projetos realistas. 
@@ -33,10 +33,10 @@ O desafio consiste em construir uma página o mais semelhante possível ao model
 •	URL da solução: [Add solution URL here](https://your-solution-url.com)
 
 ## Meu processo
-Iniciei pela tela desktop e fui reduzindo para tela mobile.
+Inicialmente fiz a tela desktop e fui reduzindo para tela mobile. Algum tempo depois eu refiz o projeto aplicando a metodologia do mobile-fist;
 ### Construido com
 <img loading="lazy" src="https://img.shields.io/badge/FERRAMENTAS-HTMl5_,_CSS3_e_Flexbox-yellow">
-<img loading="lazy" src="https://img.shields.io/badge/WORKFLOW-Desktop_First-blue">
+<img loading="lazy" src="https://img.shields.io/badge/WORKFLOW-Mobile_First-blue">
 
 ### O que aprendi
 Meu maior aprendizado foi ter trabalhado em um projeto maior, uma página completa contendo áreas de cabeçalho, principal e rodapé bem definidas, exigindo um bom planejamento prévio.  
